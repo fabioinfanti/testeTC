@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="696" height="153" viewBox="0 0 696 153">
+  <defs>
+    <filter id="Elipse_123" x="0" y="0" width="153" height="153" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#0070f9"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_4154" data-name="Grupo 4154" transform="translate(-10173 -4737)">
+    <path id="Caminho_9345" data-name="Caminho 9345" d="M171,84.5v4" transform="translate(10155.5 4722.5)" fill="none" stroke="#0070f9" stroke-linecap="round" stroke-width="2"/>
+    <path id="Caminho_9346" data-name="Caminho 9346" d="M181.093,85.136v2.727" transform="translate(10154.779 4722.5)" fill="none" stroke="#0070f9" stroke-linecap="round" stroke-width="2"/>
+    <path id="Caminho_9347" data-name="Caminho 9347" d="M191.186,79.682V93.318" transform="translate(10154.728 4722.5)" fill="none" stroke="#0070f9" stroke-linecap="round" stroke-width="2"/>
+    <path id="Caminho_9348" data-name="Caminho 9348" d="M201.277,79.682V93.318" transform="translate(10154.675 4722.5)" fill="none" stroke="#0070f9" stroke-linecap="round" stroke-width="2"/>
+    <path id="Caminho_9349" data-name="Caminho 9349" d="M211.37,75.25v22.5" transform="translate(10154.622 4722.5)" fill="none" stroke="#0070f9" stroke-linecap="round" stroke-width="2"/>
+    <path id="Caminho_9350" data-name="Caminho 9350" d="M221.463,75.25v22.5" transform="translate(10154.57 4722.5)" fill="none" stroke="#0070f9" stroke-linecap="round" stroke-width="2"/>
+    <path id="Caminho_9351" data-name="Caminho 9351" d="M231.556,75.25v22.5" transform="translate(10154.518 4722.5)" fill="none" stroke="#0070f9" stroke-linecap="round" stroke-width="2"/>
+    <path id="Caminho_9352" data-name="Caminho 9352" d="M241.648,79.682V93.318" transform="translate(10154.465 4722.5)" fill="none" stroke="#0070f9" stroke-linecap="round" stroke-width="2"/>
+    <path id="Caminho_9353" data-name="Caminho 9353" d="M251.74,79.682V93.318" transform="translate(10154.413 4722.5)" fill="none" stroke="#0070f9" stroke-linecap="round" stroke-width="2"/>
+    <path id="Caminho_9354" data-name="Caminho 9354" d="M261.833,79.682V93.318" transform="translate(10154.36 4722.5)" fill="none" stroke="#0070f9" stroke-linecap="round" stroke-width="2"/>
+    <path id="Caminho_9355" data-name="Caminho 9355" d="M271.926,79.682V93.318" transform="translate(10154.308 4722.5)" fill="none" stroke="#0070f9" stroke-linecap="round" stroke-width="2"/>
+    <path id="Caminho_9356" data-name="Caminho 9356" d="M282.019,75.25v22.5" transform="translate(10154.255 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9357" data-name="Caminho 9357" d="M292.111,75.25v22.5" transform="translate(10154.203 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9358" data-name="Caminho 9358" d="M302.2,85.136v2.727" transform="translate(10154.15 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9359" data-name="Caminho 9359" d="M312.3,82.5v8" transform="translate(10154.098 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9360" data-name="Caminho 9360" d="M322.389,85.136v2.727" transform="translate(10154.046 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9361" data-name="Caminho 9361" d="M332.481,75.25v22.5" transform="translate(10153.993 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9362" data-name="Caminho 9362" d="M342.574,79.682V93.318" transform="translate(10153.94 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9363" data-name="Caminho 9363" d="M352.667,79.682V93.318" transform="translate(10153.888 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9364" data-name="Caminho 9364" d="M362.759,79.682V93.318" transform="translate(10153.836 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9365" data-name="Caminho 9365" d="M372.852,75.25v22.5" transform="translate(10153.783 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9366" data-name="Caminho 9366" d="M382.944,85.136v2.727" transform="translate(10153.73 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9367" data-name="Caminho 9367" d="M393.037,79.5v14" transform="translate(10153.679 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9368" data-name="Caminho 9368" d="M403.13,75.25v22.5" transform="translate(10153.626 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9369" data-name="Caminho 9369" d="M413.223,85.136v2.727" transform="translate(10153.573 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9370" data-name="Caminho 9370" d="M423.314,75.25v22.5" transform="translate(10153.521 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9371" data-name="Caminho 9371" d="M433.407,79.682V93.318" transform="translate(10153.469 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9372" data-name="Caminho 9372" d="M443.5,79.682V93.318" transform="translate(10153.416 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9373" data-name="Caminho 9373" d="M453.593,75.25v22.5" transform="translate(10153.363 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9374" data-name="Caminho 9374" d="M463.686,79.682V93.318" transform="translate(10153.312 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9375" data-name="Caminho 9375" d="M473.777,79.682V93.318" transform="translate(10153.259 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9376" data-name="Caminho 9376" d="M483.87,75.25v22.5" transform="translate(10153.206 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9377" data-name="Caminho 9377" d="M493.963,82.409v8.182" transform="translate(10153.154 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9378" data-name="Caminho 9378" d="M504.056,75.25v22.5" transform="translate(10153.102 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9379" data-name="Caminho 9379" d="M514.148,75.25v22.5" transform="translate(10153.049 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9380" data-name="Caminho 9380" d="M524.24,79.682V93.318" transform="translate(10152.996 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9381" data-name="Caminho 9381" d="M534.333,75.25v22.5" transform="translate(10152.944 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9382" data-name="Caminho 9382" d="M544.426,79.682V93.318" transform="translate(10152.892 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9383" data-name="Caminho 9383" d="M554.519,79.682V93.318" transform="translate(10152.839 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9384" data-name="Caminho 9384" d="M564.611,79.682V93.318" transform="translate(10152.787 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9385" data-name="Caminho 9385" d="M574.7,82.5v8" transform="translate(10152.734 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9386" data-name="Caminho 9386" d="M584.8,75.25v22.5" transform="translate(10152 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9387" data-name="Caminho 9387" d="M594.889,79.682V93.318" transform="translate(10152 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9388" data-name="Caminho 9388" d="M604.981,75.25v22.5" transform="translate(10152 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9389" data-name="Caminho 9389" d="M615.074,79.682V93.318" transform="translate(10152 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9390" data-name="Caminho 9390" d="M625.167,79.682V93.318" transform="translate(10152 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9391" data-name="Caminho 9391" d="M635.259,75.25v22.5" transform="translate(10152 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9392" data-name="Caminho 9392" d="M645.352,82.409v8.182" transform="translate(10152 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9393" data-name="Caminho 9393" d="M655.444,79.682V93.318" transform="translate(10152 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9394" data-name="Caminho 9394" d="M665.537,75.25v22.5" transform="translate(10152 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9395" data-name="Caminho 9395" d="M675.63,79.682V93.318" transform="translate(10152 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9396" data-name="Caminho 9396" d="M685.723,79.682V93.318" transform="translate(10152 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9397" data-name="Caminho 9397" d="M695.814,82.5v8" transform="translate(10152 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9398" data-name="Caminho 9398" d="M705.907,79.682V93.318" transform="translate(10152 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <path id="Caminho_9399" data-name="Caminho 9399" d="M716,82.5v8" transform="translate(10152 4722.5)" fill="none" stroke="#1b2634" stroke-linecap="round" stroke-width="2" opacity="0.102"/>
+    <g transform="matrix(1, 0, 0, 1, 10173, 4737)" filter="url(#Elipse_123)">
+      <circle id="Elipse_123-2" data-name="Elipse 123" cx="46.5" cy="46.5" r="46.5" transform="translate(25 25)" fill="#007eff"/>
+    </g>
+    <path id="Caminho_9401" data-name="Caminho 9401" d="M103.5,86.134a1,1,0,0,1,0,1.732L81,100.856a1,1,0,0,1-1.5-.866V74.01a1,1,0,0,1,1.5-.866Z" transform="translate(10155.5 4722.5)" fill="#fff"/>
+  </g>
+</svg>

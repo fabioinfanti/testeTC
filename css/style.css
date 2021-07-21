@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif !important;
+    background-color: #fff !important;
+}
+
+.min-vh-50 {
+    min-height: 50vh !important;
+}
+
+/*----- INICIO -----*/
+
+.header-wrap {
+    position: relative;
+}
+
+.dots-esquerda-topo{
+    position: absolute;
+    left: -35%;
+    width: 20%;
+    top: 0;
+}
+
+.relative {
+    position: relative;
+}
+
+.logo{
+    padding-top: 15%;
+}
+
+.chamada {
+    font-weight: 300;
+    margin-top: 15%;
+    font-size: 56px;
+}
+
+.paragraph{
+    font-size: 24px;
+    margin-top: 6%;
+    font-weight: 400;
+    margin-bottom: 10%;
+}
+
+.retangulo-top{
+    position: absolute;
+    right: 0;
+    width: 90%;
+    z-index: 0;
+}
+
+.mockup-iphone-topo{
+    position: absolute;
+    right: 0;
+    top: 25px;
+    width: 100%;
+    z-index: 2;
+}
+
+.grafico-top{
+    position: absolute;
+    right: 0;
+    width: 90%;
+    z-index: 1;
+}
+
+/*----- VÍDEO -----*/
+
+.dots-direita-topo{
+    position: absolute;
+    right: 0;
+    top: -165px;
+    z-index: 1;
+}
+
+iframe{
+    display: block;
+    border-radius: 20px;
+    margin: 5% auto;
+    z-index: 2;
+    position: relative;
+}
+
+.title-video {
+    text-align: center;    
+}
+
+.retangulo-middle {
+    position: absolute;
+    top: -366px;
+    left: -155px;
+    z-index: 0;
+}
+
+.mascara {
+    overflow: hidden;
+    z-index: 2;
+}
+
+.iphones {
+    position: relative;
+    z-index: 2;
+}
+
+.bg-white{
+    background-color: #fff!important;
+    padding: 20px 70px;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+    margin: 120px 0 50px -100px;
+    width: 95%;
+}
+
+.bg-white h3 {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.lista {
+    margin: 45px auto;
+    position: relative;
+    z-index: 2;
+}
+
+.lista__item {
+    margin: auto;
+    font-size: 26px;
+    color: white;
+    font-weight: 300;
+}
+
+/*----- SENCON -----*/
+
+.sencon__logo {
+    margin-bottom: 8%;
+}
+
+.sencon b{
+    color: #007eff;
+}
+
+.sencon_text {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.sencon__image {
+    position: absolute;
+    right: 0;
+    border-radius: 0 0 0 100px;
+    width: 45%;
+}
+
+/*----- TC RADIO -----*/
+
+.retangulo-azul-bottom {
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+
+.mockup-bottom {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.tc-radio__logo {
+    margin-top: 50%;
+}
+
+.tc-radio__text {
+    font-size: 54px;
+    margin: 10% auto 5%;
+}
+
+.highlight {
+    font-weight: 700;
+    position: relative;
+}
+
+.highlight:after {
+    content: attr(data-content);
+    position: absolute;
+    color: #000;
+    top: 35px;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: #007eff;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.tc-radio__player {
+    width: 80%;
+    margin: 5% 0 50% -3%;
+}
+
+.quadrado-bottom {
+    position: absolute;
+    right: 0;
+    bottom: 35%;
+}
+
+/*----- NUMEROS -----*/
+
+.icons {
+    display: block;
+    margin: 66px auto 45px;
+}
+
+.blue {
+    padding: 20px;
+    color: #007eff;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.legenda {
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.texto-centralizado {
+    margin: 80px auto 50px;
+}
+
+.download {
+    margin-bottom: 20%;
+}
+
+/*----- LEAD -----*/
+
+.lead {
+    background-color: #1E2B3C;
+    border-radius: 50px;
+    position: relative;
+    top: -140px;
+}
+
+.box-fundo{
+    display: block;
+    margin: auto;
+    right: 0;
+    position: absolute;
+    top: 0;
+}
+
+.lead__text {
+    margin: 93px 130px;
+    color: white;
+}
+
+.lead__text h3 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.lead__text p {
+    font-weight: 300;
+    margin: auto;
+}
+
+.lead__form {
+    margin: 93px 0;
+}
+
+form{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lead__form__control {
+    border: none;
+    justify-content: center;
+    display: block;
+    padding: 10px 60px 10px 20px;
+    width: 150%;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1E2B3C !important;
+    border-radius: 25px !important;
+    padding: 7px 35px !important;
+}
+
+/*----- LEAD -----*/
+
+.rodape {
+    margin-bottom: 60px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.direitos {
+    margin: 0 0 0 15px
+}
+
+.redes {
+    margin: 0 10px;
+}
+
+/*----- MENU -----*/
+
+.bg-menu{
+    background: rgba( 255, 255, 255, 0.20 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.0px );
+    -webkit-backdrop-filter: blur( 5.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 100px;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    display: none;
+}
+
+.bg-menu-ativo{
+    background: rgba( 255, 255, 255, 0.20 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.0px );
+    -webkit-backdrop-filter: blur( 5.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 100px;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    display: block;
+}
+
+.menu-escondido img{    
+    margin: 20px auto !important;
+}
+
+.redes-menu {
+    margin: 20px;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-around;
+}
