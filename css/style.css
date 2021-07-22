@@ -79,6 +79,8 @@ body{
 }
 
 iframe{
+    width: 900px;
+    height: 500px;
     display: block;
     border-radius: 20px;
     margin: 5% auto;
@@ -92,14 +94,10 @@ iframe{
 
 .retangulo-middle {
     position: absolute;
-    top: -366px;
-    left: -155px;
+    bottom: 0;
+    left: 0;
     z-index: 0;
-}
-
-.mascara {
-    overflow: hidden;
-    z-index: 2;
+    width: 90%;
 }
 
 .iphones {
@@ -113,8 +111,8 @@ iframe{
     border-radius: 30px;
     position: relative;
     z-index: 1;
-    margin: 120px 0 50px -100px;
-    width: 95%;
+    margin: 120px 0 50px -80px;
+    width: 100%;
 }
 
 .bg-white h3 {
@@ -123,7 +121,7 @@ iframe{
 }
 
 .lista {
-    margin: 45px auto;
+    margin: 35px auto;
     position: relative;
     z-index: 2;
 }
@@ -163,13 +161,15 @@ iframe{
     position: absolute;
     left: 0;
     top: 15px;
+    width: 130%;
 }
 
 .mockup-bottom {
     position: absolute;
     left: 0;
     top: 0;
-    z-index: 1;
+    z-index: 1;    
+    width: 165%;
 }
 
 .tc-radio__logo {
@@ -255,6 +255,8 @@ iframe{
     right: 0;
     position: absolute;
     top: 0;
+    max-width: 100%;
+    height: auto;
 }
 
 .lead__text {
@@ -298,9 +300,10 @@ form{
     background-color: #1E2B3C !important;
     border-radius: 25px !important;
     padding: 7px 35px !important;
+    border: none !important;
 }
 
-/*----- LEAD -----*/
+/*----- RODAPÉ -----*/
 
 .rodape {
     margin-bottom: 60px;
@@ -370,4 +373,469 @@ form{
 .space-between {
     display: flex;
     justify-content: space-around;
+}
+
+.mobile {
+    display: none;
+}
+
+.max-vh-100 {
+    min-height: 100vh !important;
+}
+
+.direitos-mobile {
+    display: none;
+}
+
+/*----- 1440px -----*/
+@media screen and (max-width: 1441px){
+    .iphones {
+        width: 100%;
+    }
+    
+    .bg-white {
+        padding: 15px 70px;
+        margin: 70px 0 30px -100px;
+    }
+    
+    .lista {
+        margin: 20px auto;
+    }
+
+    .lista__item {
+        font-size: 24px;
+    }
+
+    .bg-white h3 {
+        font-size: 28px;
+    }
+}
+
+/*----- 1400px -----*/
+@media screen and (max-width: 1401px){
+    .chamada {
+        font-size: 48px;
+    }
+
+    .paragraph {
+        font-size: 20px;
+    }
+
+    .dots-esquerda-topo {
+        left: -20%;
+    }
+
+    .mascara {
+        width: 95%;
+        margin: 2px auto 0;
+    }
+
+    .iphones {
+        width: 100%;
+    }
+
+    .bg-white {
+        padding: 15px 70px;
+        margin: 70px 0 30px -100px;
+    }
+    
+    .lista {
+        margin: 20px auto;
+    }
+
+    .lista__item {
+        font-size: 24px;
+    }
+
+    .bg-white h3 {
+        font-size: 28px;
+    }
+
+    .mockup-bottom {
+        width: 165%;
+    }
+
+    .retangulo-azul-bottom {
+        width: 130%;
+    }
+
+    .quadrado-bottom {
+        bottom: 45%;
+        width: 15%;
+    }
+
+    .tc-radio__text {
+        font-size: 42px;
+    }
+
+    .lead__form__control {
+        width: 140%;
+    }
+
+}
+
+/*----- 1024px -----*/
+@media screen and (max-width: 993px){
+    .bg-white {
+        padding: 15px 60px;
+        margin: 30px 0 0px -80px;
+    }
+
+    .lista {
+        margin: 10px auto;
+    }
+
+    .lista__item {
+        font-size: 18px;
+    }
+}
+
+/*----- 992px -----*/
+@media screen and (max-width: 993px){
+    .dots-esquerda-topo {
+        left: -28%;
+        width: 25%;
+    }
+
+    .chamada {
+        font-size: 32px;
+    }
+
+    .paragraph {
+        font-size: 16px;
+    }
+
+    .dots-direita-topo {
+        width: 40%;
+    }
+
+    iframe {
+        width: 65%;
+        height: 340px;
+    }
+
+    .mascara {
+        width: 114%;
+    }
+
+    .bg-white {
+        width: 100%;
+        margin: 20px 0 0 -80px;
+    }
+
+    .bg-white h3 {
+        font-size: 24px;
+    }
+
+    .lista {
+        margin: 10px auto;
+    }
+
+    .lista__item {
+        font-size: 16px;
+        margin-left: 15px;
+    }
+
+    .sencon__text {
+        font-size: 18px;
+    }
+
+    .tc-radio__text {
+        font-size: 30px;
+    }
+
+    .highlight:after{
+        top: 20px;
+    }
+
+    .icons {
+        margin: 66px auto 25px;
+    }
+
+    .blue {
+        padding: 10px;
+        font-size: 32px;
+    }
+
+    .legenda {
+        font-size: 18px;
+    }
+
+    .texto-centralizado {
+        margin: 50px auto;
+    }
+
+    .bg-menu-ativo{
+        display: none;
+    }
+
+    .download {
+        margin-bottom: 30%;
+    }
+
+    .lead__text {
+        margin: 70px 30px;
+        color: white;
+    }
+
+    .lead__form {
+        margin: 75px 0;
+    }
+
+    .lead__form__control {
+        width: 100%;
+    }
+
+    .lead__text p {
+        font-size: 16px;
+    }
+
+    .lead__text h3 {
+        font-size: 32px;
+    }
+        
+}
+
+/*----- 767 -----*/
+@media screen and (max-width: 767px){
+    .disable {
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .dots-esquerda-topo {
+        left: -20%;
+        width: 15%;
+    }
+
+    .chamada {
+        margin-top: 10%;
+        font-size: 40px;
+    }
+
+    .paragraph {
+        font-size: 20px;
+    }
+
+    .bg-azul {
+        width: 100%;
+        background-color: #007eff;
+        height: 70vh;
+        border-radius: 0 0 0 100px;
+        display: block;
+    }
+
+    .dots-direita-topo {
+        position: absolute;
+        right: 0;
+        top: -80px;
+    }
+
+    .iphones {
+        display: none;
+    }
+
+    .bg-white {
+        width: 60%;
+        margin: 0 0 30px -110px;
+        padding: 15px 60px 15px 100px;
+    }
+
+    .bg-white h3 {
+        font-size: 20px;
+        margin: auto;
+    }
+
+    .lista {
+        margin: 10px auto 20px;
+    }
+
+    .min-vh-50 {
+        min-height: 30vh !important;
+    }
+
+    .retangulo-middle{
+        width: 100%;
+    }
+
+    .sencon__text {
+        width: 90%;
+    }
+
+    .tc-radio__logo {
+        margin-top: 30%;
+    }
+
+    .tc-radio__player {
+        width: 100%;
+    }
+
+    .quadrado-bottom {
+        bottom: 65%;
+        width: 10%;
+    }
+
+    .mockup-bottom {
+        width: 155%;
+        left: -100px;
+    }
+
+    .retangulo-azul-bottom {
+        width: 120%;
+        left: -90px;
+    }
+
+    .max-vh-100 {
+        min-height: 70vh !important;
+    }
+
+    .download {
+        margin-bottom: 40%;
+    }
+
+    .lead__text {
+        margin: 35px 30px;
+        z-index: 2;
+        position: relative;
+    }
+
+    .lead__form {
+        margin: 35px 0;
+    }
+
+    .btn-primary {
+        background-color: #007eff !important;
+    }
+
+    .lead__form__control {
+        width: 130%;
+    }
+
+    .direitos {
+        margin: 10px auto 0;
+        font-size: 12px;
+    }
+
+    .flex{
+        display: block;
+    }
+
+    .box-fundo {
+        max-width: 150%;
+    }
+
+}
+
+@media screen and (max-width: 575px){
+    .logo {
+        padding-top: 25%;
+    }
+    
+    .chamada {
+        font-size: 24px;
+    }
+
+    .paragraph {
+        font-size: 16px;
+    }
+
+    .redes-topo {
+        margin-bottom: 10%;
+    }
+
+    .dots-direita-topo {
+        display: none;
+    }
+
+    .title-video {
+        font-size: 25px;
+    }
+
+    iframe {
+        width: 80%;
+        height: 180px;
+    }
+
+    .retangulo-middle {
+        left: -195px;
+        width: 145%;
+    }
+
+    .bg-white {
+        width: 100%;
+    }
+
+    .bg-white h3 {
+        font-size: 24px;
+    }
+
+    .lista {
+        margin: auto 15px 33px;
+    }
+
+    .lista__item {
+        font-size: 14px;
+        margin-left: 15px;
+    }
+
+    .lista2 {
+        margin: auto 15px 33px;
+    }
+
+    .sencon__logo {
+        width: 80%;
+    }
+
+    .sencon__text {
+        font-size: 16px;
+    }
+
+    .mockup-bottom {
+        width: 170%;
+        left: -75px;
+    }
+
+    .retangulo-azul-bottom {
+        width: 135%;
+        left: -80px;
+    }
+
+    .tc-radio__logo {
+        width: 70%;
+    }
+
+    .tc-radio__text {
+        font-size: 18px;
+    }
+
+    .highlight:after {
+        top: 13px;
+    }
+
+    .max-vh-100 {
+        min-height: 60vh !important;
+    }
+
+    .download {
+        margin-bottom: 50%;
+    }
+
+    .lead__form__control {
+        width: 110%;
+    }
+
+    .direitos {
+        display: none;
+    }
+
+    .direitos-mobile {
+        text-align: center;
+        font-weight: 300;
+        font-size: 16px;
+        display: block;
+    }
+
 }
