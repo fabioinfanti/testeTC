@@ -387,6 +387,10 @@ form{
     display: none;
 }
 
+.itens {
+    margin: 0;
+}
+
 /*----- 1440px -----*/
 @media screen and (max-width: 1441px){
     .iphones {
@@ -475,7 +479,7 @@ form{
 }
 
 /*----- 1024px -----*/
-@media screen and (max-width: 993px){
+@media screen and (max-width: 1024px){
     .bg-white {
         padding: 15px 60px;
         margin: 30px 0 0px -80px;
@@ -598,6 +602,10 @@ form{
 
 /*----- 767 -----*/
 @media screen and (max-width: 767px){
+    .itens {
+        margin-left: 40px;
+    }
+
     .disable {
         display: none;
     }
@@ -730,6 +738,10 @@ form{
 }
 
 @media screen and (max-width: 575px){
+    .itens {
+        margin-left: 10px;
+    }
+
     .logo {
         padding-top: 25%;
     }
@@ -837,6 +849,12 @@ form{
         font-weight: 300;
         font-size: 16px;
         display: block;
+    }
+
+    .redes {
+        width: 100%;
+        padding: 3px;
+        margin: 0;
     }
 
 }
