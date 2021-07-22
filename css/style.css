@@ -766,6 +766,7 @@ form{
 
     .bg-white {
         width: 100%;
+        margin: 0 0 30px -90px;
     }
 
     .bg-white h3 {
@@ -838,4 +839,18 @@ form{
         display: block;
     }
 
+}
+
+@media screen and (max-width: 400px) {
+    .retangulo-middle {
+        left: -170px;
+    }
+
+    .tc-radio__text {
+        font-size: 15px;
+    }
+
+    .highlight:after {
+        top: 10px;
+    }
 }
